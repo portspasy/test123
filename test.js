@@ -23,8 +23,19 @@ for(var i = 0; i < 10; i++) {
 console.log("======================");
 
 
-for (var i = 0; i < 20; i++) {
+for (var i = 0; i < 10; i++) {
     console.log(faker.internet.userName() + " phone number is: " + casual.phone +  ", email address: " + casual.email);
 }
 
+console.log("======================");
 
+var name = "Joe Doe";
+var age = 26;
+var isMarried = false;
+
+
+if (isMarried === true) {
+    console.log(name + " is married!");
+} else {
+    console.log(name + " will hopefully marry soon ;) ");
+}
