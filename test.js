@@ -81,3 +81,42 @@ if (scoreJohn < scoreMark){
     console.log("John wins this silly game with " + scoreJohn + " points!");
 }
 
+
+var john = {
+    name: "John",
+    age: 22,
+    yearOfBirth: 1991,
+    married: false
+};
+
+console.log(john);
+
+
+var names = ["Athos", "Porthos", "Aramis", "Dardangian", "Decard", "Spinoza", "Dumas"];
+
+
+console.log("======================");
+
+
+for (var i = 0; i < names.length; i++) {
+    console.log(names[i]);
+}
+
+console.log("======================");
+
+
+for (var i = names.length - 1; i >= 0 ; i--) {
+    console.log(names[i]);
+}
+
+
+// Age calculator: 
+
+var years = [1991, 2000, 1986, 2012, 1935, 1967, 2011, 2003, 1977];
+var ages = [];
+
+for (var i = 0; i < years.length; i++) {
+   ages[i] = 2018 - years[i];
+}
+
+console.log(ages);
